@@ -1,0 +1,11 @@
+app = "image-bot"
+primary_region = "sin"  # you can change this to your closest region
+
+[env]
+  BOT_TOKEN = "7414189274:AAFcDO3FSK9cTIQgMyF7nPXPg_FW-ySdVUw"
+
+[[services]]
+  internal_port = 8080
+  protocol = "tcp"
+  auto_start = true
+  auto_stop = false
